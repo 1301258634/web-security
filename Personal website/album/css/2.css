@@ -1,0 +1,161 @@
+/* CSS Document */
+*{
+	margin: 0;
+	padding: 0;
+}
+#biaoti {
+	color: #FFF;
+	font-size: 50px;
+	font-family: "书体坊安景臣钢笔行书";
+	text-align: center;
+}
+        body{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+        .clearfix:after{
+	content: '200B';
+	display: block;
+	font-size: 0;
+	clear: both;
+	height: 0;
+}
+        .galary{
+	list-style: none;
+}
+        .galary .item{
+	width: 196px;
+	height: 100px;
+	position: absolute;
+	cursor: pointer;
+	background-color: #FFF;
+	transition: transform 1s ease;
+}
+        .galary .item .pic{
+	transition: transform 1s ease 1s;
+}
+        .pic-box{
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	width: 980px;
+	height: 500px;
+}
+#daohanglan {
+	height: 64px;
+	width: 60px;
+	z-index: 50;
+	position: relative;
+	top: 16px;
+}
+#daohanglan1 {
+	height: 200px;
+	width: 220px;
+}
+#daohanglan ul li:hover ul {
+	display: block;
+}
+/*#daohanglan ul li img:hover {
+	content:url(../images/2.png);
+}
+*/
+#daohanglan ul li ul {
+	position: relative;
+	top: -12px;
+	display: none;
+}
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #000;
+}
+
+#footer {
+	background-color: #000;
+	height: 100px;
+	width: 100%;
+	position: relative;
+	top: -32px;
+}
+#footer1 {
+	color: #FFF;
+	height: 100px;
+	width: 550px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+}
+.list-item {
+	color: #575757;
+	text-align: center;
+	height: 3.8em;
+	width: 4em;
+	vertical-align: middle;
+	line-height: 3.8em;
+	border-bottom: 1px solid #060606;
+	position: relative;
+	display: block;
+	text-decoration: none;
+	box-shadow: -2em 1.5em 0px #e1e1e1;
+	transition: all .25s linear;
+	background-color: #09F;
+	left: 1.5em;
+	font-weight: bolder;
+	z-index: 51;
+}
+.list-item:hover {
+	color: #fffcfb;
+	-webkit-transform: translate(0.9em, -0.9em);
+	transform: translate(0.9em, -0.9em);
+	transition: all .25s linear;
+	box-shadow: -2em 2em 0px #e1e1e1;
+	background-color: #ff6e42;
+}
+.list-item:hover:before, .list-item:hover:after {
+  transition: all .25s linear;
+}
+.list-item:hover:before {
+  background: #b65234;
+  width: 1em;
+  top: .5em;
+  left: -1em;
+}
+.list-item:hover:after {
+  background: #b65234;
+  width: 1em;
+  bottom: -2.5em;
+  left: 1em;
+  height: 4em;
+}
+.list-item:before, .list-item:after {
+  content: '';
+  position: absolute;
+  transition: all .25s linear;
+  width: .5em;
+}
+.list-item:after {
+	height: 4em;
+	bottom: -2.25em;
+	left: 1.5em;
+	-webkit-transform: rotate(90deg) skew(0, 45deg);
+	transform: rotate(90deg) skew(0, 45deg);
+	background-color: #0099FF;
+}
+.list-item:before {
+	height: 3.8em;
+	top: 0.25em;
+	left: -0.5em;
+	-webkit-transform: skewY(-45deg);
+	transform: skewY(-45deg);
+	background-color: #0099FF;
+}
+

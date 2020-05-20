@@ -1,0 +1,60 @@
+@charset "utf-8";
+.global_nav_07 {
+	padding-left: 65px;
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #ededed;
+	letter-spacing: 1px;
+}
+
+.global_nav_07 li {
+	float: left;
+	padding: 5px 20px 5px 20px;
+	margin-left: -10px;
+	background: transparent;
+	position: relative;
+}
+
+.global_nav_07 .first_item {
+	background: url(../img/share/index_07-bg-home.png) no-repeat transparent right center;
+	z-index: 3;
+}
+
+.global_nav_07 .parent_item {
+	background: url(../img/share/index_07-bg-section.png) no-repeat transparent right center;
+	z-index: 2;
+}
+
+.global_nav_07 .breadcrumb_01 a {
+	color: #fff;
+}
+
+.global_nav_07 .breadcrumb_01 {
+	float: left;
+}
+
+.global_nav_07 .breadcrumb_02 li {
+	border-right: 1px solid #bebebe;
+	padding: 5px 20px 5px 20px;
+	z-index: 1;
+}
+
+.global_nav_07 .breadcrumb_02 a {
+	color: #005689;
+}
+
+.global_nav_07 .last_item {
+	margin-left: 0;
+}
+
+.global_nav_07 .first_item:hover,.global_nav_07 .parent_item:hover {
+	background: url(../img/share/index_07-bg-on.png) no-repeat transparent right center;
+}
+
+.global_nav_07 .breadcrumb_02 li:hover {
+	background: #233178;
+}
+
+.global_nav_07 .breadcrumb_02 li:hover a {
+	color: #fff;
+}
